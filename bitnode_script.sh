@@ -18,4 +18,4 @@ unzip Bitnode.zip
 rm Bitnode.zip
 chmod +x bitnode*
 sudo cp bitnode* /usr/bin
-bitnodesd -daemonhttps://github.com/U1tima/masternode-scripts
+bitnodesd -daemon
