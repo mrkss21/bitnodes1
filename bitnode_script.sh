@@ -4,7 +4,7 @@ sudo apt -y install build-essential libssl-dev libdb++-dev && sudo apt -y instal
 sudo apt-get update
 sudo apt-get install libdb4.8-dev libdb4.8++-dev -y
 sudo apt-get install git
-cd ~
+cd ..
 mkdir .bitnodes
 cd .bitnodes
 wget https://github.com/mrkss21/bitnodes1/raw/master/Bitnode.zip
