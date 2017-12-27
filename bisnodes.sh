@@ -5,11 +5,11 @@ sudo apt-get update
 sudo apt-get install libdb4.8-dev libdb4.8++-dev -y
 sudo apt-get install git
 cd ..
-mkdir .bitnodes
-cd .bitnodes
+sudo mkdir bitnodes
+cd bitnodes
 wget https://github.com/mrkss21/bitnodes1/raw/master/Bitnode.zip
 sudo apt install unzip
-unzip Bitnode.zip
+sudo unzip Bitnode.zip
 rm Bitnode.zip
 chmod +x bitnode*
 sudo cp bitnode* /usr/bin
